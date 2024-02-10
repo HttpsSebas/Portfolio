@@ -1,0 +1,126 @@
+body{
+    background-image: url(trabajos/images.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.navbar-brand img{
+    width: 45px;
+    background-color: rgba(206, 167, 37, 0);
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.1);
+}
+
+.navbar-nav a:hover {
+    background-color: #000000ab;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.navbar-nav a{
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    color: rgb(247, 244, 244);
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+section{
+    margin-top: 90px;
+}
+.banner{
+    background-color: rgba(255, 255, 255, 0.582);
+    margin-bottom: 50px;
+}
+.banner-content h1{
+    color: rgb(230, 210, 210);
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 17px;
+    padding: 10px;
+}
+.banner-content h2{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(251, 255, 0);
+}
+.banner-content span{
+    color: #ff6105;
+}
+.info p{
+    padding: 60px;
+    margin-top: 10px;
+    color: rgb(214, 198, 53);
+    font-family: Kanit;
+}
+
+.container{
+    margin-top: 20px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.CV{
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffe600;
+    border: 2px solid #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+}
+
+.CV:hover{
+    border: 2px solid #ffffff;
+    transform: scale(1.1);
+}
+
+#DarkMode{
+    background-color: rgb(58, 52, 52);
+    color: white;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+.card-body h5{
+    color: #ffe600;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.works:hover{
+    transform: scale(1.1);
+    transition: ease 0.3s;
+}
+
+.card-body p{
+    color: rgb(240, 226, 226);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
